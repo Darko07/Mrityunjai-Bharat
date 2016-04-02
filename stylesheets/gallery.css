@@ -1,0 +1,152 @@
+@font-face {
+    font-family: logoText;
+    src: url(../fonts/logoText.TTF);
+}
+
+
+@font-face {
+    font-family: footerText;
+    src: url(../fonts/footer.ttf);
+}
+
+
+@font-face {
+    font-family: testText;
+    src: url(../fonts/testiFont.OTF);
+}
+
+@font-face {
+    font-family: sliderFont;
+    src: url(../fonts/sliderFont.ttf);
+}
+
+@font-face {
+    font-family: descFont;
+    src: url(../fonts/description.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#body-wrapper{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: auto;
+    width: 100vw;
+}
+
+#panel {
+  position: relative;
+  height: 60vw;
+  width: 100vw;
+  background: #292829;
+}
+
+#gallery-heading {
+  position: absolute;
+  font-size: 2vw;
+  font-family: sliderFont;
+  padding-bottom: 10px;
+  color: white;
+  width: 10vw;
+  left: 50%;
+  top: 70px;
+  transform: translateX(-50%);
+  border-bottom: 1px solid white;
+}
+
+#init-container {
+  width: 100vw;
+  position: relative;
+  top: 200px;
+  
+}
+
+.init {
+  position: absolute;
+  width: 27vw !important;
+  height: 15vw !important;
+  border: 2px dashed rgba(255, 255, 255, 0.4);
+}
+
+#init-1 {
+  left: 4.75vw;
+}
+
+#init-2 {
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+#init-3 {
+  right: 4.75vw;
+}
+
+#init-4 {
+  top: 18vw;
+  left: 4.75vw;
+}
+
+#init-5 {
+  top: 18vw;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+#init-6 {
+  top: 18vw;
+  right: 4.75vw;
+}
+
+/*--------------Footer--------------*/
+
+
+#intent-gap {
+    height: 30vh;
+    width:100vw;
+    position:relative;
+    top:0vh;
+    background-color: #D3113A;
+}
+
+#help-one{
+    position:absolute;
+    top:25%;
+    left:25%;
+    color:white;
+    font-family: sliderFont;
+    font-size: 27px;
+}
+
+
+#help-two{
+    position:absolute;
+    top:25%;
+    left:50%;
+    width:250px;
+    color:white;
+    font-family: sliderFont;
+    font-size: 27px;
+}
+
+
+#help-three{
+    position:absolute;
+    top:25%;
+    left:75%;
+    color:white;
+    font-family: sliderFont;
+    font-size: 27px;
+
+}
+
+#footer-home{
+    height:70vh;
+    width: 100vw;
+    background-color: #383b3f;
+    position: relative;
+    top:0vh;
+}

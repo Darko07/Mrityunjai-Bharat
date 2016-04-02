@@ -1,0 +1,418 @@
+* {
+    padding: 0px;
+    margin : 0px;
+}
+
+#body-wrapper{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: auto;
+    width: 100%;
+}
+
+
+body{
+    padding:0px;
+    margin : 0px;
+    width: 100%;
+    overflow-x: hidden;
+    border: 0px;
+}
+
+@font-face {
+    font-family: logoText;
+    src: url(../fonts/logoText.TTF);
+}
+
+
+@font-face {
+    font-family: footerText;
+    src: url(../fonts/footer.ttf);
+}
+
+
+@font-face {
+    font-family: testText;
+    src: url(../fonts/testiFont.OTF);
+}
+
+@font-face {
+    font-family: sliderFont;
+    src: url(../fonts/sliderFont.ttf);
+}
+
+@font-face {
+    font-family: descFont;
+    src: url(../fonts/description.ttf);
+}
+
+#page-one{
+    height:100vh;
+    width:100vw;
+    background-color: yellow;
+    position: absolute;
+    top:0px;
+}
+
+#left-section{
+    height:100vh;
+    width: 35vw;
+    position:relative;
+    top:0px;
+    left:0px;
+    background-color:#e6e6e6;
+}
+
+#left-section-head{
+    height:40vh;
+    width:35vw;
+    position: relative;
+    top:0px;
+    left:0px;
+    background-color: #eeeeee;
+}
+
+#menu-drawer{
+    height: 10vh;
+    width:5vw;
+    position: relative;
+    top:2vh;
+    left:1vw;
+    background-color: transparent;
+}
+
+#menu-drawer-button{
+    height:5vh;
+    width: 2vw;
+    position: relative;
+    top: 0px;
+}
+
+#left-section-head-content{
+    height:20vh;
+    width:20vw;
+    position:relative;
+    top:1vh;
+    left:10vw;
+    background-color: transparent;
+}
+
+#crafting-future-logo{
+    height:30vh;
+    width:15vw;
+    position: relative;
+    top:0px;
+}
+
+#left-section-body{
+    height:40vh;
+    width: 35vw;
+    position:relative;
+    top:0px;
+    left:0px;
+    background-color: #eeeeee;
+}
+
+#left-section-body-content{
+    height: 20vh;
+    width: 25vw;
+    background-color: transparent;
+    position: relative;
+    top:0vh;
+    left:4.75vw;
+}
+
+#left-section-body-content-heading{
+    height: 20vh;
+    font-family: footerText;
+    font-size: 4vw;
+    color:#282928;
+    position:relative;
+    top:4vh;
+    left:0vw;
+}
+
+#left-section-footer{
+    height:20vh;
+    width: 35vw;
+    position:relative;
+    top:0px;
+    left:0px;
+    background-color: #eeeeee;
+}
+
+#left-section-footer-content{
+    height: 15vh;
+    width: 20vw;
+    background-color:transparent;
+    position: relative;
+    top:2.5vh;
+    left:15vw; 
+}
+
+#logo-name-image{
+    height: 15vh;
+    width: 20vw;
+    position: relative;
+    top:3vh;
+    left:1vw;
+}
+
+#right-section-slider{
+    height:100vh;
+    width:65vw;
+    position:absolute;
+    top:0vh;
+    left:35vw;
+    background-color: #a1a1a1;
+}
+
+.slides {
+    position:relative;
+    left: 0px;
+    height:100vh;
+    width:100%;
+    z-index: 1;
+}
+.slide {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index:-2;
+    overflow: hidden;
+    background-size: 100% !important;
+}
+
+.slides  div.top{
+    z-index:-1;
+}
+
+#slide-mask {
+    position:absolute;
+    right: 0px;
+    height:100vh;
+    width:65vw;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#right-section-bullshit{
+    height: 3vh;
+    width: 15vw;
+    position: absolute;
+    top:90vh;
+    left:62vw;
+    background-color: #fff;
+}
+
+#page-two {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 100vh;
+}
+
+#init-head {
+    font-family: sliderFont;
+    color:#303030;
+    font-size: 3.5vw;
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+    padding-bottom: 15px;
+}
+
+#init-description {
+    
+    height:auto;
+    width:auto;
+    font-family: descFont;
+    color:#303030;
+    font-size: 1.4vw;
+    font-weight: 500;
+    position: relative;
+    top: 12vh;
+    margin: 0px;
+}
+
+#init-strip-cont {
+    position: absolute;
+    height: 20vw;
+    width: 100vw;
+    background: #292829;
+    bottom: 0vh;
+}
+
+.image {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    top: 0px;
+    left: 0px;
+    background-size: auto 100% !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+#image-1 {
+    left: 0vw;
+}
+
+#image-2 {
+    left: 20vw;
+}
+
+#image-3 {
+    left: 40vw;
+}
+
+#image-4 {
+    left: 60vw;
+}
+
+#image-5 {
+    left: 80vw;
+}
+
+#page-three {
+    position: absolute;
+    top: 200vh;
+    width: 100vw;
+    height: 50vh;
+}
+
+.links {
+    position: relative;
+    width: 10px;
+    margin: 20px;
+}
+
+.links img {
+    width: 150px;
+}
+
+
+#intent-gap{
+    height: 30vh;
+    width:100vw;
+    position:relative;
+    top:250vh;
+    background-color: #D3113A;
+}
+
+#help-one{
+    position:absolute;
+    top:25%;
+    left:25%;
+    color:white;
+    font-family: sliderFont;
+    font-size: 27px;
+}
+
+
+#help-two{
+    position:absolute;
+    top:25%;
+    left:50%;
+    width:250px;
+    color:white;
+    font-family: sliderFont;
+    font-size: 27px;
+}
+
+
+#help-three{
+    position:absolute;
+    top:25%;
+    left:75%;
+    color:white;
+    font-family: sliderFont;
+    font-size: 27px;
+
+}
+
+#footer-home{
+    height:70vh;
+    width: 100vw;
+    background-color: #383b3f;
+    position: relative;
+    top:250vh;
+    
+}
+
+
+
+  /*--------------HISTORY-ADMIN------------------*/
+
+
+  #ad-menu-wrapper{
+    height: 100vh;
+    width: 30%;
+    background-color:#282928;
+    position: fixed;
+    top:0%;
+    left:-30%;
+    z-index: 999;
+  }
+
+  #history-text{
+
+    font-size: 100px;
+    color:orange;
+    position: absolute;
+    top:75%;
+    right: 5%;
+    } 
+
+#menu-wrapper-head{
+  height: 20%;
+  width: 100%;
+  position: absolute;
+}
+
+
+#menu-wrapper-notifier-text{
+ 
+  position: absolute;
+  top:70%;
+  color:#a1a1a1;
+  font-size: 30px;
+  font-family: footerText;
+  z-index: 15;
+  right: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #a1a1a1;
+}
+
+
+#menu-wrapper-selection-panel{
+  height: 80%;
+  width: 100%;
+  position: relative;
+  top:0%;
+}
+
+#ul-year-select{
+  height: 100%;
+  width: 100%;
+}
+
+.cls-ul-year-select{
+    color:#686868;
+    font-family: footerText;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    position:relative;
+    top:180px;
+    text-align: right;
+    right:25px;
+    cursor: pointer;
+}
+
+.cls-ul-year-select:hover{
+    color:#D3113A;
+}
